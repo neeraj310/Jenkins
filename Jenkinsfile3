@@ -6,7 +6,7 @@ pipeline {
                             stage('PY3 Build') {
                            steps {
                 				echo  "first demo in python3"
-                				pwd
+                				dir
                        				python3 jenkinsdemo.py
                     		
             					}
