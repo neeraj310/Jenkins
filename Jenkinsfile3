@@ -6,9 +6,9 @@ pipeline {
                             stage('PY3 Build') {
                            steps {
                 				echo  "first demo in python3"
-                				sh  '''pwd
+                				pwd
                        				python3 jenkinsdemo.py
-                    				'''
+                    		
             					}
                            }
                             stage('PY2 Build') {
