@@ -5,9 +5,9 @@ pipeline {
         parallel { 
                             stage('PY3 Build') {
                            steps {
-                				echo  "first demo in python3"
-                				
+                					sh  '''pwd
                        				python3 jenkinsdemo.py
+                    				'''
                     		
             					}
                            }
